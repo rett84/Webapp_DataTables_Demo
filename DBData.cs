@@ -11,6 +11,8 @@ namespace Webapp_Demo
 {
     public class DBData
     {
+        //Had to use old Jet driver to work with Azure. Azure does not have the ACE driver(accdb extension)
+        //I wanted to keep it simple with an MSAccess file to demonstrate the DB connection so I had to use the old mdb extension
         private const string connectionstr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\DB.mdb";
 
         public string GetEmployeesAll()
