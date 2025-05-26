@@ -17,7 +17,7 @@ namespace Webapp_Demo
         {
             var storedProcedureName = "spEmployeesAll";
             string jsonResult;
-            string connectionstr = Settings.Default.DBConnString;//@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\DB.mdb";
+            string connectionstr = Settings.Default.DBConnString;
 
             // establish connection to DB, define command to execute stored procedure
             using (OleDbConnection conn = new OleDbConnection(connectionstr))
