@@ -7,7 +7,7 @@
     <p class="lead">This is my DataTables demo for my portfolio. Here I have C#, SQL, JS, jquery, Rest
             and Ajax technologies, plus the powerful DataTables library, being demonstrated.
         The Datatables page fetches data from a DB. Jibbles and Quickbooks pages are fetching Timesheets
-        information,from these systems using the Rest library.
+        information, from these systems using the Rest library.
     </p>
   </div>
 </asp:Content>

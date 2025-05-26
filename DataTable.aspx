@@ -86,7 +86,7 @@
 
        <div class="jumbotron">
         <h1>DataTables Demo</h1>
-        <p class="lead">Fecthing data from a DB.</p>
+        <p class="lead">Fetching data from a DB.</p>
     </div>
     <div>
     <%--Grid declaration--%>
