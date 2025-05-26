@@ -1,11 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DataTable.aspx.cs" Inherits="Webapp_Demo.DataTable" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="DataTable.aspx.cs" Inherits="Webapp_Demo.DataTable" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-      <link href="../DataTables/datatables.css" rel="stylesheet" />
+        <link href="../DataTables/datatables.css" rel="stylesheet" />
         <link href="../DataTables/buttons.dataTables.css" rel="stylesheet" />
         <link href="../DataTables/select.dataTables.css" rel="stylesheet" />
         <link href="../DataTables/dataTables.dateTime.min.css" rel="stylesheet" />
@@ -87,16 +83,10 @@
 
        </script>
 
-</head>
-<body>
-
-
-    <form id="form1" runat="server">
 
        <div class="jumbotron">
         <h1>DataTables Demo</h1>
-        <p class="lead">This is my DataTables demo for my portfolio. Here I have C#, SQL, JS, jquery
-            and Ajax technologies, plus the powerful DataTables library, being demonstrated.</p>
+        <p class="lead">Fecthing data from a DB.</p>
     </div>
     <div>
     <%--Grid declaration--%>
@@ -133,6 +123,4 @@
     <footer>
         <p>&copy; <%: DateTime.Now.Year %> - My DataTables Demo - L. Rettore</p>
     </footer>
-    </form>
-</body>
-</html>
+</asp:Content>

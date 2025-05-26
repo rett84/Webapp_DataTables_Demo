@@ -11,7 +11,7 @@ namespace Webapp_Demo
 {
 
 
-    public partial class DataTable
+    public partial class JibbleTSheets
     {
     }
 }
