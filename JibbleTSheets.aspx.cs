@@ -29,8 +29,8 @@ namespace Webapp_Demo
 
         private static string GetAccessToken()
         {
-            string apiID = "b0bc1eaf-a708-48e3-b339-b9dab851df4d";
-            string apiSecret = "pPva8oWWkTtrk5vv5XrcYk9ZYXKsRy2MrCIW3Ru8PEgmdCCq";
+            string apiID = Properties.Settings.Default.JibbleID;
+            string apiSecret = Properties.Settings.Default.JibbleSecret;
 
 
             var options = new RestClientOptions("https://identity.prod.jibble.io");

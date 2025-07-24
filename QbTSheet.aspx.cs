@@ -28,8 +28,8 @@ namespace Webapp_Demo
         [WebMethod]
         public static string TSDatatoJson(string dateStart, string dateEnd)
         {
-            string TOKEN = "S.26__8767e49c9a94030c9185bc71252e42d0e6ad6a10";
-           
+            string TOKEN = Properties.Settings.Default.QbToken;
+
             var client = new RestClient("https://rest.tsheets.com");
             var request = new RestRequest("/api/v1/timesheets?start_date=" + dateStart + "&end_date="+dateEnd+"&on_the_clock=both");
             request.AddHeader("Authorization", "Bearer " + TOKEN);

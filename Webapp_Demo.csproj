@@ -237,6 +237,7 @@
     <Compile Include="JibbleClass.cs" />
     <Compile Include="JibbleTSheets.aspx.cs">
       <DependentUpon>JibbleTSheets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="JibbleTSheets.aspx.designer.cs">
       <DependentUpon>JibbleTSheets.aspx</DependentUpon>
@@ -250,6 +251,7 @@
     <Compile Include="QbClass.cs" />
     <Compile Include="QbTSheet.aspx.cs">
       <DependentUpon>QbTSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="QbTSheet.aspx.designer.cs">
       <DependentUpon>QbTSheet.aspx</DependentUpon>

@@ -31,5 +31,32 @@ namespace Webapp_Demo.Properties {
                 return ((string)(this["DBConnString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("b0bc1eaf-a708-48e3-b339-b9dab851df4d")]
+        public string JibbleID {
+            get {
+                return ((string)(this["JibbleID"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("pPva8oWWkTtrk5vv5XrcYk9ZYXKsRy2MrCIW3Ru8PEgmdCCq")]
+        public string JibbleSecret {
+            get {
+                return ((string)(this["JibbleSecret"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("S.26__8767e49c9a94030c9185bc71252e42d0e6ad6a10")]
+        public string QbToken {
+            get {
+                return ((string)(this["QbToken"]));
+            }
+        }
     }
 }

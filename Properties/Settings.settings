@@ -5,5 +5,14 @@
     <Setting Name="DBConnString" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\DB.mdb</Value>
     </Setting>
+    <Setting Name="JibbleID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">b0bc1eaf-a708-48e3-b339-b9dab851df4d</Value>
+    </Setting>
+    <Setting Name="JibbleSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">pPva8oWWkTtrk5vv5XrcYk9ZYXKsRy2MrCIW3Ru8PEgmdCCq</Value>
+    </Setting>
+    <Setting Name="QbToken" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">S.26__8767e49c9a94030c9185bc71252e42d0e6ad6a10</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

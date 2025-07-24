@@ -65,6 +65,10 @@
         });
     </script>
 
+   <div class="jumbotron" style="margin-top: 40px;">
+        <p class="lead">Here I'm consuming data from Jibble REST API, to fetch information of time entries and project information.</p>
+    </div>
+
     <div style="margin-top: 40px;">
         <div style="margin-bottom: 20px; display: flex; gap: 20px; align-items: flex-end;">
             <div>
